@@ -11,6 +11,7 @@ def display(img):
 
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('input_img', help='input test image')
+parser.add_argument('model_path', help='model to load')
 args = parser.parse_args()
 
 model = load_model('lanes.h5')
