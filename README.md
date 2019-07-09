@@ -26,6 +26,7 @@ You can test the model on a single image by typing:
 python3 predict.py ./path/to/input_image ./path/to/saved/model.h5
 ```
 ## Results
+The current model gave the following predictions:
 
 **Image** | **Annotation** | **Prediction**
 ----------|----------------|---------------
@@ -52,3 +53,5 @@ This utils file can also be used to parse images from the tfrecords for debuggin
 
 ### Start Training
 To train the model, you have to run the LaneExtraction.ipynb notebook. Make sure you edit the lines specifying the name of your dataset (tfrecord file names).
+
+After
