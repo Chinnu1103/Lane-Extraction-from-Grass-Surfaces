@@ -8,11 +8,11 @@ This network uses an encoder-decoder architecture to create a mask from the imag
 <br>The encoder consists of several consecutive residual blocks. This model mainly uses two types of residual blocks:
 1. Convolutional Block: Here the skipped layer undergoes convolution before getting merged with the main flow.
 
-![alt text](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/blob/master/models/convolutional_block.png)
+![alt text](h/models/convolutional_block.png)
 
 2. Identity Block: Here the skipped layer does not undergo any function before merging with the main flow.
 
-![alt text](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/blob/master/models/identity_block.png)
+![alt text](/models/identity_block.png)
 
 To reduce dimentions, I took some inspiration from the Deeplab-v3 model and used depthwise seperable convolutions instead of maxpooling. I also applied several dilated convolutions with rates of (3,3) to give an effect of a (7,7) filter.
 
@@ -20,7 +20,7 @@ The decoder consists of several initial atrous convolutions with rates of (3,3),
 
 The basic architecture is as follows:
 
-![alt text](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/blob/master/models/model_architechture.png)
+![alt text](/models/model_architechture.png)
 
 For a more detailed model architecture check out [this image.](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/blob/master/models/model_summary.png)
 
