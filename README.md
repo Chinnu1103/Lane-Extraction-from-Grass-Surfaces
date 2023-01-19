@@ -8,7 +8,7 @@ This network uses an encoder-decoder architecture to create a mask from the imag
 <br>The encoder consists of several consecutive residual blocks. This model mainly uses two types of residual blocks:
 1. Convolutional Block: Here the skipped layer undergoes convolution before getting merged with the main flow.
 
-![alt text](h/models/convolutional_block.png)
+![alt text](/models/convolutional_block.png)
 
 2. Identity Block: Here the skipped layer does not undergo any function before merging with the main flow.
 
