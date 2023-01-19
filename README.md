@@ -32,7 +32,7 @@ The model needs the following libraries and packages:
 * Matplotlib
 
 ## Test the Model
-To check the performance of the model on your own images, you first need to download the weights from [here.](https://drive.google.com/file/d/14EkHsn-_x4Ss1uwLKWcEEjBFXjQ-DEDB/view?usp=sharing) The model is approximately 500 MB large and is trained on approximately 600 images for nearly 25 epochs. If you want to explore these images, then their tfrecords can be found [here.](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/tree/master/Dataset/tfrecords)
+To check the performance of the model on your own images, you first need to download the weights from [here.](https://drive.google.com/file/d/1DxvpLlbYdQRU7C6WujH3_HXL-G6dbzuu/view?usp=share_link) The model is approximately 500 MB large and is trained on approximately 600 images for nearly 25 epochs. If you want to explore these images, then their tfrecords can be found [here.](https://github.com/Chinnu1103/Lane-Extraction-from-Grass-Surfaces/tree/master/data/tfrecords)
 
 You can test the model on a single image by typing:
 ```python
